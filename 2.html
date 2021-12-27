@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .first{
+      color = blue; backgroundColor = yellow;}
+    </style>
+  </head>
+  <script>
+
+  </script>
+<body>
+  <h2 style="first">20818이종현</h2>
+  <ul>
+    <li><a href="">1페이지로 이동하기<a></li>
+    <li><a href="">2페이지로 이동하기<a></li>
+    <li><a href="">3페이지로 이동하기<a></li>
+  </ul>
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'black';">
+
+  <input id="on_off" type="button" value="on"  onclick="
+  if(document.querySelector('#on_off').value === 'on')
+  {
+    document.querySelector('body').style.backgroundColor = 'black';
+    documnet.querySelector('body').style.color = 'white';
+    document.querySelector('#on_off').value = 'off';
+  }
+  else
+  {
+    document.querySelector('body').style.backgroundColor = 'white';
+    documnet.querySelector('body').style.color = 'black';
+    document.querySelector('#on_off').value = 'off';
+  }">
+  <br>
+  <img src ="1.png" width="30%">
+  <iframe width="400" height="270" src="https://www.youtube.com/embed/yS44aCakGDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <dl>JavaScript</dl>
+    <dd>html과 css로 만들어진 웹페이지를 동적으로 변경해주는 언어</dd>
+
+  </body>
+</html>

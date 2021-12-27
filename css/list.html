@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .weight{
+        font-weight:bold;
+        color:red;
+      }
+      #color{
+        font-weight:bold;
+        color:green;
+      }
+      span{
+        color:yellow;
+      }
+    </style>
+  </head>
+  <body style=color:"background-color:black; color:white">
+    <input id ="night_day" type="button" value="night"
+    onclick="
+    if(document.querySelector('#night_day').value==='night'){
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+      document.querySelector('#night_day').value='day';
+    }else{
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+      document.querySelector('#night_day').value='night';
+    }
+    ">
+    <!--
+    <input type="button" value="day"
+    onclick="document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';">
+
+    -->
+
+
+    <h1><a href="http://smc.sen.hs.kr/index.do">학교홈페이지로 이동하기</a></h1>
+    <h1 style="background-color: coral; color:powderblue">20818 이종현</h1>
+    <p><span class="weight">JavaScript</span> (/ˈdʒɑːvəˌskrɪpt/),[8] <span class="weight">often</span> abbreviated as JS,
+      is a programming language that conforms to the ECMAScript specification.[9]
+      <span class="weight">JavaScript</span> is high-level, often just-in-time compiled, and multi-paradigm.
+      It has curly-bracket syntax, dynamic typing, prototype-based object-orientation,
+      and first-class functions.</p><br>
+
+      <h4 style = "background-color : lightgreen; font-weight: bold;"> 세명컴퓨터고등학교 학과소개</h4>
+      <ul>
+        <li style="font-weight:bold;">게임소프트웨어과</li>
+        <li>스마트보안솔루션과</li>
+        <li>인공지능소프트웨어과</li>
+        <li>디바이스소프트웨어과</li>
+      </ul>
+
+  </body>
+</html>
